@@ -6,26 +6,26 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #02070d;
+.body{
+    background-color: #1f1f1f;
 }
 
 .container{
-    width: 450px ;
+    width: 430px ;
     position: absolute ;
     transform: translate(-50% , -50%) ;
     left: 50% ;
     top: 50% ;
+    padding: 0 ;
 }
 
 .container *{
-    color: #ffffff ;
+    color: rgb(255, 255, 255) ;
     font-family: "Roboto Mono" ,monospace ;
 }
 
 .clock {
     width: 100% ;
-    background-color: rgba(255,255,255,0.06);
     padding: 50px 25px ;
     border: 1.5px solid rgba(255,255,255,0.06);
     box-shadow: 0 25px 30px rgba(0,0,0,0.15);
@@ -62,7 +62,7 @@ body{
     border-radius: 50% ;
     z-index: -1;
     bottom: 100px ;
-    right: -100px ;
+    right: 100px ;
 }
 
 .shape2{
@@ -72,7 +72,7 @@ body{
     background: linear-gradient(45deg , #426cf8 , #3ebdf0);
     border-radius: 50% ;
     top: 110px ;
-    left: -110px ;
+    left: 110px ;
     z-index: -1;
     
 }
